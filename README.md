@@ -98,5 +98,5 @@ To remove the  docker containers and volume you can run
 
 ## References
 
-- https://www.mongodb.com/docs/v3.0/tutorial/manage-users-and-roles/
+- https://www.mongodb.com/docs/v7.0/tutorial/manage-users-and-roles/
 - https://docs.elixirtech.com/Ambience/2024.0/index.html
