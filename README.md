@@ -68,19 +68,29 @@ You can test the user and list the database by call the script
 ./test-created-serviceUser.sh
 ```
 
+You can run the script to test your database access setup for ambienceUser 
+
+```
+cd test
+./test-created-serviceUser.sh
+```
+
+
 ### Launch Ambience to connect to database
-Run ambience docker container using the 
+Run Ambience container using the script
+
 ```
 ./run-ambience.sh 
 ```
+
 Ambience is running at port 1740
 
 You can use a browser to view by entering http://localhost:1740
 
+Ambience uses the mongodburl  string to connect to MongoDB.
 
 ## Clean up
-To clean docker containers and volumes you 
-can run 
+To remove the  docker containers and volume you can run 
 ```
 ./run-cleanup.sh
 ```
